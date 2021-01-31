@@ -32,7 +32,7 @@ li {
     background-color: #cccccc;
     /* height: 600px; */
      max-width: 1400px;
-     height: 500px;
+     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -96,14 +96,20 @@ li {
   
   #car-info {
       margin: auto;
-      width: 500px;
+      width: 600px;
       text-align: center;
-      padding-top: 100px;
+      padding-top: 200px;
   }
   #car-info div {
       display: inline-block;
+      
+    
     
       margin: 10px 20px;
+  }
+  #car-info .info-text {
+      border-right:1px solid white ;
+      padding-right: 20px;
   }
   #car-info div p {
       font-size: 11px;
